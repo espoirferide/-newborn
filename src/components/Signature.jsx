@@ -39,6 +39,7 @@ export function Signature () {
         <section>
             <img src="./bleu.png" alt="blue" className="w-full h-61 md:h-115 lg:h-205 overflow-hidden object-center object-cover" />
         </section>
+        <h1 className="text-2xl text-left my-5 px-3 md:text-[40px] md:px-5 lg:px-15 md:my-10">Related Products</h1>
         </>
     )
 }
