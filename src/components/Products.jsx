@@ -21,3 +21,13 @@ export function Relaxed ({img, alt, titre, prix, rated}) {
         </div>
     )
 }
+
+export function Futur ({img, alt, type, description}) {
+    return(
+        <div className="flex flex-col items-center w-46 md:w-90 lg:w-100">
+            <img src={img} alt={alt} className="w-45 h-56 md:w-85 md:h-105 lg:w-99 lg:h-146.5 rounded-sm md:rounded-lg mb-3 md:mb-6"/>
+            <h2 className="text-[14px] md:text-2xl lg:text-[32px] mb-1 text-center">{type}</h2>
+            <h2 className="text-xs md:text-[14px] text-center">{description}</h2>
+        </div>
+        )
+}

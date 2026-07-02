@@ -11,7 +11,7 @@ export function Shop(){
         </section>
         <section className="lg:flex lg:items-center lg:justify-center lg:px-5">
             <div className="px-2 mb-5 flex flex-col lg:flex-row-reverse lg:gap-1 items-center md:gap-5 justify-center w-full gap-2">
-                <img src="./sc-nir-complet.png" alt="pro" className="w-80 h-78 md:w-180 md:h-115 lg:w-125 lg:h-114  overflow-hidden object-cover lg:object-contain md:object-bottom rounded-xs md:rounded-lg" />
+                <img src="./sc-nir-complet.png" alt="pro" className="w-80 h-78 md:w-180 md:h-115 lg:w-125 lg:h-114  overflow-hidden object-cover md:object-bottom rounded-xs md:rounded-lg" />
               <div className="flex gap-2 md:gap-5 lg:gap-1 lg:flex-col">
                 <img src="./sc-noir-coupé.png" alt="noir coupé" className="w-30 h-23 md:w-88 md:h-44.5 lg:w-65 lg:h-66 object-cover rounded-xs md:rounded-lg" />
                 <img src="./blanc.png" alt="blanc" className="w-46 h-23 md:w-84 md:h-44.5 lg:w-65 lg:h-44.5 object-center rounded-xs md:rounded-lg" />
