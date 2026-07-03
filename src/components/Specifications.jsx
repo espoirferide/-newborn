@@ -3,7 +3,7 @@ import { Products } from "./Products";
 export function Specifications(){
     return(
         <>
-          <section className="bg-[rgba(249,246,240,1)] pt-3 pb-12 py-4 " >
+          <section id="specifications" className="bg-[rgba(249,246,240,1)] pt-3 pb-12 py-4 " >
               <h1 className="font-medium text-2xl text-center">Specifications</h1>
               <h3 className="font-medium text-xs text-center pb-4">More in-depth technical details</h3>
               <div className="flex w-full justify-center items-center gap-[2%] lg:gap-[3%]">

@@ -9,7 +9,7 @@ export function Shop(){
              <img src="./naspers.png" alt="naspers" className="w-9 h-5 md:w-16 md:h-10" />
              <img src="./cosmopolitan.png" alt="com" className="w-28 h-10 hidden md:block " />
         </section>
-        <section className="lg:flex lg:items-center lg:justify-center lg:px-5">
+        <section id="shop" className="lg:flex lg:items-center lg:justify-center lg:px-5">
             <div className="px-2 mb-5 flex flex-col lg:flex-row-reverse lg:gap-1 items-center md:gap-5 justify-center w-full gap-2">
                 <img src="./sc-nir-complet.png" alt="pro" className="w-80 h-78 md:w-180 md:h-115 lg:w-125 lg:h-114  overflow-hidden object-cover md:object-bottom rounded-xs md:rounded-lg" />
               <div className="flex gap-2 md:gap-5 lg:gap-1 lg:flex-col">
@@ -31,7 +31,7 @@ export function Shop(){
         <h3 className="font-medium text-[14px] md:text-[18px] text-[rgba(74,93,105,1)] my-3">$503.00</h3> 
         <p className="my-3 font-medium text-xs md:text-[14px] md:w-120">The X500 Electric Scooter offers a sleek design, ultra-durable build, and an impressive 25-mile range, making it your perfect companion for city travel.</p> 
         <p className="my-3 font-medium text-xs md:text-[14px] md:w-120">A high-performance, eco-friendly scooter designed for smooth rides and urban commutes.</p> 
-        <div className="border-2 border-black bg-black text-white md:py-2 text-center my-6 rounded-full">Add to cart</div>
+         <a href=""><div className="transition-all duration-300 ease-out hover:bg-white hover:text-black border-2 border-black bg-black text-white md:py-2 text-center my-6 rounded-full">Add to cart</div></a>
             </div>
         </section>
         </>

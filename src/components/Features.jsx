@@ -2,7 +2,7 @@ import { Futur } from "./Products";
 
 export function Features() {
     return(
-        <section className="flex flex-col items-center my-5">
+        <section id="features" className="flex flex-col items-center my-5">
             <h1 className="text-2xl md:text-[40px] mb-5">Features</h1>
             <article className="flex w-full justify-center gap-3 overflow-hidden mb-3 md:mb-5">
                 <div>
@@ -21,7 +21,7 @@ export function Features() {
                     description={'Up to 25 miles per charge'}/>
                 </div>
             </article>
-             <button className="border border-black bg-black rounded-full px-4 py-1 md:py-2 text-[14px] text-white">Shop Now</button>
+            <a href="" className="border border-black bg-black rounded-full px-4 py-1 md:py-2 text-[14px] text-white transition-all duration-300 ease-out hover:bg-white hover:text-black">Shop Now</a>
         </section>
     )
 }

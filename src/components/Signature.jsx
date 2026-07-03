@@ -1,7 +1,7 @@
 export function Signature () {
     return(
         <>
-        <section className="flex flex-col lg:flex-row-reverse items-center justify-between px-3 py-15 w-full lg:px-20">
+        <section id="reviews" className="flex flex-col lg:flex-row-reverse items-center justify-between px-3 py-15 w-full lg:px-20">
               <article className="relative shrink-0 h-63 w-74 md:w-140 md:h-115">
       <img src="img-chargé.png" alt="produit" className="absolute w-74 md:w-140 md:h-106.25 h-57 md:rounded-lg rounded-sm" /> 
         <div className="flex flex-col absolute top-12 left-28 md:left-54 md:top-20">
@@ -33,7 +33,7 @@ export function Signature () {
      <article className="md:px-5 w-full lg:flex-1 space-y-5 pl-3 md:pl-5">
            <h1 className="text-2xl md:text-[40px]">Our signature</h1>
            <p className="w-70 text-xs md:text-xl md:w-110">We design and build exceptional products that deliver a superior riding experience, every time.</p>
-           <button className="border border-black bg-black rounded-full px-4 py-1 md:py-2 text-[14px] text-white">See the Difference</button>
+         <a href=""><button className="cursor-pointer border border-black bg-black hover:bg-white hover:text-black rounded-full px-4 py-1 md:py-2 text-[14px] text-white transition-all duration-300 ease-out">See the Difference</button></a>
      </article>
         </section>
          <section>
